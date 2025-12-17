@@ -1,3 +1,3 @@
-t = (1, 2, 3, 4, 5)
+tup = (2, 4, 2, 6, 2)
 
-print(type(t))
+print(tup.index(2))
