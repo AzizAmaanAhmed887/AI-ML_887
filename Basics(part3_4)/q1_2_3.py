@@ -13,6 +13,7 @@ student_courses = {}
 for student, course in info:
     if student not in student_courses:
         student_courses[student] = set()  # empty set
+
     student_courses[student].add(course)  # default initialize unique value
 
 print(student_courses)

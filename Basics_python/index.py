@@ -1,4 +1,4 @@
-a = 2
-b = 9
+s = "python"
 
-print(f'{a} + {b} = {a + b}')
+for ch in s:
+    print(ch)
